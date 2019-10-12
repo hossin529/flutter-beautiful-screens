@@ -4,9 +4,12 @@
 <img src="/assets/screenshots/Screenshot_2.png"></br>
 <img src="/assets/screenshots/Screenshot_3.png"></br>
 <img src="/assets/screenshots/Screenshot_4.png"></br>
+<h1> and more ... </h1>
 
+<p>Don't Forget to Subscribe to My youtube Channel - <a href="https://www.youtube.com/channel/UCuArmx2gHQooKQ3oMLTbv2Q" rel="nofollow">Moroccan Dev</a></p></br>
+<p>Follow me in istagram - <a href="https://www.instagram.com/moroccan_dev/" rel="nofollow">moroccan_dev</a></p></br>
+<p>Join our flutter family group - <a href="http://bit.ly/2MkIVBE rel="nofollow">flutter maroc (arabic - english)</a></p></br>
 
-<p>Don't Forget to Subscribe to My youtube Channel - <a href="https://www.youtube.com/channel/UCuArmx2gHQooKQ3oMLTbv2Q" rel="nofollow">Youtube Channel</a></p>
 
 ## Getting Started
 
