@@ -9,7 +9,6 @@ import 'feed_1/Feed1.dart';
 import 'ayoub/Ayoub.dart';
 import 'bloger_1/Bloger1.dart';
 import 'welcom_1/Welcom1.dart';
-import 'package:sms/sms.dart';
 
 void main() => runApp(MyApp());
 
@@ -39,33 +38,13 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-   SmsQuery query = new SmsQuery();
    @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    getmsg();
-    receiver();
-    sendSms();
   }
 
-  getmsg()async{
-    List<SmsMessage> messages = await query.getAllSms;
-    print(messages[1].address);
-    print(messages[1].body);
-  }
-  receiver(){
-
-  SmsReceiver receiver = new SmsReceiver();
-  receiver.onSmsReceived.listen((SmsMessage msg) => print(msg.body));
-  }
-  sendSms(){
-    SmsSender sender = new SmsSender();
-sender.onSmsDelivered.listen((SmsMessage message){
-  print('${message.address} received your message.');
-});
-
-  }
+  
   @override
   Widget build(BuildContext context) {
     return Container(

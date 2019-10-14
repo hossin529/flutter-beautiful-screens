@@ -18,8 +18,6 @@ environment:
 
 dependencies:
   fluttery_seekbar: ^0.0.1
-  image_picker:
-  sms: ^0.2.4
 
   font_awesome_flutter: ^8.4.0
   provider: ^2.0.1
